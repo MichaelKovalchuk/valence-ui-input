@@ -2,6 +2,7 @@
 @import 'input-icons.scss';
 
 @mixin vui-input-checkbox() {
+	background-size: 22px 22px;
 	@include _vui-input-checkbox-radio-helper(
 		checkbox,
 		$vui-checkbox,
