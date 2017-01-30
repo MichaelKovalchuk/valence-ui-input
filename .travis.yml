@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - 5.6
+rvm:
+- 2.0.0
 before_script:
 - gem install percy-cli
 after_success:
