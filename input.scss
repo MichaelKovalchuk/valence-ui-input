@@ -21,7 +21,9 @@
 	display: inline-block;
 	height: $height;
 	margin: 0;
-	min-width: $min-width;
+	@if $min-width != 0 {
+		min-width: $min-width;
+	}
 	vertical-align: middle;
 	width: $width;
 	transition: {
