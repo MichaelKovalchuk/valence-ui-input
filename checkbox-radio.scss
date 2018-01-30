@@ -62,16 +62,6 @@
 		background-image: $background-image-checked;
 	}
 
-	/* Firefox only */
-	/* https://bugzilla.mozilla.org/show_bug.cgi?id=605985 */
-	@-moz-document url-prefix() {
-		& {
-			appearance: $appearance;
-		}
-		&:focus {
-			@include _vui-input-legacy-outline();
-		}
-	}
 	/* IE (not Edge) only */
 	@media screen and (min-width:0\0) {
 		&:focus {
