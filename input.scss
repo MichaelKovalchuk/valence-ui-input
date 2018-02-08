@@ -8,10 +8,10 @@
 		$box-shadow: inset 0 2px 0 0 rgba(185, 194, 208, .2),
 		$has-text: true,
 		$height: auto,
-		$line-height: 1.4rem,
+		$line-height: 1.2rem,
 		$min-width: 0,
-		$padding: 0.3rem 1rem,
-		$padding-focus: calc(0.3rem - 1px) calc(1rem - 1px),
+		$padding: 0.4rem 0.75rem,
+		$padding-focus: calc(0.4rem - 1px) calc(0.75rem - 1px),
 		$width : 100%
 	) {
 
@@ -34,19 +34,19 @@
 	@if $has-text {
 		color: $d2l-color-ferrite;
 		font-family: inherit;
-		font-size: 0.95rem;
+		font-size: 0.8rem;
 		font-weight: 400;
-		letter-spacing: 0.01rem;
+		letter-spacing: 0.02rem;
 		line-height: $line-height;
 		&::placeholder {
-			color: $d2l-color-titanius;
+			color: $d2l-color-mica;
 		}
 	}
 
 	&,
 	&:hover:disabled {
 		background-color: $background-color;
-		border-color: $d2l-color-titanius;
+		border-color: $d2l-color-mica;
 		border-width: 1px;
 		box-shadow: $box-shadow;
 		padding: $padding;

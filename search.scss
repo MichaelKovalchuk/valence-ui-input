@@ -11,13 +11,13 @@
 		&:hover,
 		&.vui-input-hover,
 		&.vui-input-focus {
-			padding-right: calc(2.2rem - 1px);
+			padding-right: calc(2.1rem - 1px);
 		}
 		&,
 		&:disabled,
 		&:focus:disabled,
 		&:hover:disabled {
-			padding-right: 2.2rem;
+			padding-right: 2.1rem;
 		}
 		&::-webkit-search-decoration {
 			-webkit-appearance: none;
@@ -27,15 +27,15 @@
 			&:hover,
 			&.vui-input-hover,
 			&.vui-input-focus {
-				padding-left: calc(2.2rem - 1px);
-				padding-right: calc(1rem - 1px);
+				padding-left: calc(2.1rem - 1px);
+				padding-right: calc(0.45rem - 1px);
 			}
 			&,
 			&:disabled,
 			&:focus:disabled,
 			&:hover:disabled {
-				padding-right: 1rem;
-				padding-left: 2.2rem;
+				padding-right: 0.45rem;
+				padding-left: 2.1rem;
 			}
 		}
 	}
@@ -61,7 +61,7 @@
 	opacity: 0.7;
 	padding: 0;
 	position: absolute;
-	right: 1rem;
+	right: 0.45rem;
 	text-indent: -10000px;
 	top: 0.45rem;
 	width: 1.2rem;
@@ -75,7 +75,7 @@
 		opacity: 1;
 	}
 	[dir="rtl"] & {
-		left: 1rem;
+		left: 0.45rem;
 		right: auto;
 	}
 }
