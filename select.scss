@@ -29,14 +29,14 @@
 					color: $d2l-color-ferrite;
 				}
 				background-image: $vui-select-hover;
-				padding-right: calc(1rem + 42px - 1px);
+				padding-right: calc(0.75rem + 42px - 1px);
 			}
 			&,
 			&:disabled,
 			&:focus:disabled,
 			&:hover:disabled {
 				background-image: $vui-select-normal;
-				padding-right: calc(1rem + 42px);
+				padding-right: calc(0.75rem + 42px);
 			}
 		}
 		[dir='rtl'] &:not([multiple]) {
@@ -46,16 +46,16 @@
 			&.vui-input-hover,
 			&.vui-input-focus {
 				background-image: $vui-select-hover-rtl;
-				padding-left: calc(1rem + 42px - 1px);
-				padding-right: calc(1rem - 1px);
+				padding-left: calc(0.75rem + 42px - 1px);
+				padding-right: calc(0.75rem - 1px);
 			}
 			&,
 			&:disabled,
 			&:focus:disabled,
 			&:hover:disabled {
 				background-image: $vui-select-normal-rtl;
-				padding-right: 1rem;
-				padding-left: calc(1rem + 42px);
+				padding-right: 0.75rem;
+				padding-left: calc(0.75rem + 42px);
 			}
 		}
 		&::-ms-expand {
