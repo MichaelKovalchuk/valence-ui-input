@@ -1,3 +1,5 @@
+> Deprecated: use [BrightspaceUI/text-input](https://github.com/BrightspaceUI/text-input) web component instead.
+
 # vui-input
 [![Bower version][bower-image]][bower-url]
 [![NPM version][npm-image]][npm-url]
