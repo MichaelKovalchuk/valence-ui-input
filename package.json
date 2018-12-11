@@ -14,7 +14,7 @@
     "prebuild": "npm run clean && npm run build:sass:icons",
     "build": "npm run build:sass && npm run build:sass:test && npm run screenshot",
     "perceptual-diff": "percy snapshot test/",
-    "postinstall": "./node_modules/.bin/bower install",
+    "postinstall": "bower install",
     "screenshot": "phantomjs ./screenshots/build.js",
     "pretest": "npm run build",
     "test": "csslintnext input.css"
